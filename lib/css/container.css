@@ -1,0 +1,84 @@
+div.luxury h3{
+    font-size:15px !important;
+}
+div.luxury h5, p{
+    font-size:10px !important;
+}
+div.gear{
+  width:21% !important;
+}
+div.lency{
+  width:35% !important;
+}
+div.out{
+  width:39% !important;
+}
+div.fx{
+    width:55px !important;
+    height:50px;
+}
+div.fx img{
+    width:100%;
+    height:100%;
+    border-radius: 200px !important;
+}
+div.font input{
+    font-size:12px;
+    
+}
+
+div.luxury{
+    margin-top:100px;
+     width:100%;
+     display:flex;
+     flex-wrap:wrap;
+     background-color: black;
+     color: blanchedalmond;
+     align-items: center;
+     height:200px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    div.luxury > div
+    {
+    width:30%;
+    text-align: center;
+    
+    }
+    div.font{
+    display:flex;
+  
+    }
+ 
+    div.out h5 {
+    
+    margin-bottom:0px;
+    
+    }
+    div.out p{
+    margin-top:0px;
+    margin-bottom:0px;
+    }
+    div.out intput{
+    margin-top:0px;
+    }
+    div.zes > div{
+    width:10%;
+    margin:5px;
+    }
+    div.zes img{
+    width:100%;
+    transition: transform 0.5s ease-in-out;
+    }
+    div.lency{
+        margin-left:50px;
+    }
+    div.zes{
+    display:flex;
+    justify-content: center;
+    }
+    div.fx img:hover{
+    transform: rotate(360deg);
+    }
+    div.font div{
+        margin-left:120px;
+    }
