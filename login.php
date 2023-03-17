@@ -3,7 +3,7 @@
 
 include 'inc/header.php';
 // include 'inc/slider.php';
-include 'classes/customer.php';
+//include 'classes/customer.php';
 
 ?>
 <?php
@@ -11,30 +11,30 @@ include 'classes/customer.php';
 ?>
 
 
-<?php
-       $cs = new customer();
-	   if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit']))
-	   {
-
-		$insertCustomer = $cs->insert_customer($_POST);
-
-	   }
-		
-		
-		
-?>
-<?php
-       $cs = new customer();
-	   if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login']))
-	   {
-
-		$login_Customer = $cs->login_customer($_POST);
-
-	   }
-		
-		
-		
-?>
+//<?php
+//       $cs = new customer();
+//	   if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit']))
+//	   {
+//
+//		$insertCustomer = $cs->insert_customer($_POST);
+//
+//	   }
+//		
+//		
+//		
+//?>
+//<?php
+//       $cs = new customer();
+//	   if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login']))
+//	   {
+//
+//		$login_Customer = $cs->login_customer($_POST);
+//
+//	   }
+//		
+//		
+//		
+//?>
  <div class="main">
     <div class="content">
     	 <div class="login_panel">
