@@ -3,7 +3,7 @@
     Session::init();
 ?>
 <?php
-     include 'lib/database.php';
+    //  include 'lib/database.php';
      include 'helpers/format.php';
 
 
